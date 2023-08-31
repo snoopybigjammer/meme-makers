@@ -24,6 +24,7 @@ ctx.lineWidth = 5;
 
 let isPainting = false;
 let isFilling = false;
+modeBtn.innerText = "Fill";
 
 function onMove(event) {
   if (isPainting) {
